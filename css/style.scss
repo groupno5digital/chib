@@ -4,7 +4,7 @@ body{
     padding: 0;
 }
 .all{
-    height: 550vh;
+    height:450vh;
     background-color: bisque;
     position: relative;
     overflow: hidden;
@@ -13,8 +13,17 @@ body{
                 top: 50%;
                 left: 57%;
                 transform: translate(-50%,-50%);
-                width: 300px;
-                
+                width: 300px;           
+    }
+    .convenient{
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translate(-50%,0);
+        z-index: 2;
+        img{
+            width: 800px;
+        }
     }
     .drop-icon-1{
         position: absolute;

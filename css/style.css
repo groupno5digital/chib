@@ -4,7 +4,7 @@ body {
 }
 
 .all {
-  height: 550vh;
+  height: 450vh;
   background-color: bisque;
   position: relative;
   overflow: hidden;
@@ -17,6 +17,19 @@ body {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 300px;
+}
+
+.all .convenient {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  z-index: 2;
+}
+
+.all .convenient img {
+  width: 800px;
 }
 
 .all .drop-icon-1 {
