@@ -1,4 +1,4 @@
-* { touch-action: pan-y; } 
+
 body{
     margin: 0;
     padding: 0;
@@ -14,17 +14,22 @@ body{
                 left: 57%;
                 transform: translate(-50%,-50%);
                 width: 300px;
-                height: 196%;
+                
     }
     .drop-icon-1{
         position: absolute;
         top: 0;
         left: 55%;
     }
+    .drop-icon-2{
+        position: absolute;
+        top: 0;
+        left: 30%;
+    }
     .food_img{
-        margin-bottom: 300+px;
+        margin-bottom: 250px;
         img{
-            width: 400px;
+            width: 300px;
         }
     }
     .food_img_btn{
