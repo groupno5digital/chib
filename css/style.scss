@@ -1,0 +1,37 @@
+* { touch-action: pan-y; } 
+body{
+    margin: 0;
+    padding: 0;
+}
+.all{
+    height: 550vh;
+    background-color: bisque;
+    position: relative;
+    overflow: hidden;
+    .wire{
+        position: absolute;
+                top: 50%;
+                left: 57%;
+                transform: translate(-50%,-50%);
+                width: 300px;
+                height: 196%;
+    }
+    .drop-icon-1{
+        position: absolute;
+        top: 0;
+        left: 55%;
+    }
+    .food_img{
+        margin-bottom: 300+px;
+        img{
+            width: 400px;
+        }
+    }
+    .food_img_btn{
+        width: 200px;
+    }
+    .foodtext_right{
+        text-align:right;
+    }
+
+}//all
