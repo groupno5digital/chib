@@ -1,0 +1,115 @@
+.imagine {
+  height: calc(50px + 90vh);
+}
+
+#long-content .all {
+  position: relative;
+}
+
+#long-content .all .wire {
+  position: absolute;
+  right: 50%;
+  z-index: 1;
+}
+
+#long-content .all .eggs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#long-content .all .eggs .whole_egg.active {
+  display: none;
+}
+
+#long-content .all .eggs .cark_left,
+#long-content .all .eggs .cark_right {
+  display: none;
+}
+
+#long-content .all .eggs .cark_left.active {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  display: block;
+}
+
+#long-content .all .eggs .cark_right.active {
+  -webkit-transform: rotate(14deg);
+          transform: rotate(14deg);
+  display: block;
+}
+
+#long-content .all .food_card {
+  z-index: 0;
+  position: relative;
+}
+
+#long-content .all .food_card .big_pic.egg {
+  height: 300px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+#long-content .all .food_card .big_pic.cucum {
+  height: 300px;
+  width: 300px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0px;
+}
+
+#long-content .all .food_card .small_pic.egg {
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#long-content .all .food_card .small_pic.egg .img {
+  width: 100px;
+  height: 100px;
+}
+
+#long-content .all .food_card .small_pic.cucum {
+  position: absolute;
+  right: 300px;
+  top: 150px;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#long-content .all .food_card .small_pic.cucum .img {
+  width: 100px;
+  height: 100px;
+}
+
+#long-content .all .food_card .small_pic.egg.active {
+  opacity: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+  left: 50%;
+}
+
+#long-content .all .food_card .small_pic.cucum.active {
+  opacity: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+  right: 50%;
+}
+
+#long-content .all .food_card .small_pic.cucum.active .img {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(2, 2);
+          transform: scale(2, 2);
+}
+/*# sourceMappingURL=scroll.css.map */
