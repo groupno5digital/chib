@@ -7,12 +7,13 @@
         position: relative;
         .wire {
             position: absolute;
-            right: 50%;
-            z-index: 1;
+            top: 150px;
+            right: 48%;
         }
         .eggs {
             display: flex;
             justify-content: center;
+            margin-bottom: 245px;
             .whole_egg.active {
                 display: none;
             }
@@ -21,12 +22,50 @@
                 display: none;
             }
             .cark_left.active {
-                transform: rotate(-45deg);
+                transform: rotate(-4deg);
                 display: block;
             }
             .cark_right.active {
-                transform: rotate(14deg);
+                transform: rotate(1deg);
                 display: block;
+            }
+        }
+        .small_pic.egg {
+            position: absolute;
+            left: 40%;
+            top: 196px;
+            opacity: 0;
+            transition: 1s;
+            z-index: 2;
+            .img {
+                width: 400px;
+                height: 400px;
+            }
+        }
+        .small_pic.cucum {
+            position: absolute;
+            right: 300px;
+            top: 150px;
+            opacity: 0;
+            transition: 1s;
+            .img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+        .small_pic.egg.active {
+            opacity: 1;
+            transition: 1s;
+            left: 41%;
+            .img {}
+        }
+        .small_pic.cucum.active {
+            opacity: 1;
+            transition: 1s;
+            right: 50%;
+            .img {
+                transition: 1s;
+                transform: scale(2, 2);
             }
         }
         .food_card {
@@ -47,43 +86,7 @@
                 position: absolute;
                 right: 0px;
             }
-            .small_pic.egg {
-                position: absolute;
-                left: 50%;
-                top: 0px;
-                opacity: 0;
-                transition: 1s;
-                .img {
-                    width: 100px;
-                    height: 100px;
-                }
-            }
-            .small_pic.cucum {
-                position: absolute;
-                right: 300px;
-                top: 150px;
-                opacity: 0;
-                transition: 1s;
-                .img {
-                    width: 100px;
-                    height: 100px;
-                }
-            }
-            .small_pic.egg.active {
-                opacity: 1;
-                transition: 1s;
-                left: 50%;
-                .img {}
-            }
-            .small_pic.cucum.active {
-                opacity: 1;
-                transition: 1s;
-                right: 50%;
-                .img {
-                    transition: 1s;
-                    transform: scale(2, 2);
-                }
-            }
+            
         }
     }
 }

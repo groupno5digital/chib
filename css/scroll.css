@@ -8,8 +8,8 @@
 
 #long-content .all .wire {
   position: absolute;
-  right: 50%;
-  z-index: 1;
+  top: 150px;
+  right: 48%;
 }
 
 #long-content .all .eggs {
@@ -19,6 +19,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 245px;
 }
 
 #long-content .all .eggs .whole_egg.active {
@@ -31,15 +32,65 @@
 }
 
 #long-content .all .eggs .cark_left.active {
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  -webkit-transform: rotate(-4deg);
+          transform: rotate(-4deg);
   display: block;
 }
 
 #long-content .all .eggs .cark_right.active {
-  -webkit-transform: rotate(14deg);
-          transform: rotate(14deg);
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
   display: block;
+}
+
+#long-content .all .small_pic.egg {
+  position: absolute;
+  left: 40%;
+  top: 196px;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  z-index: 2;
+}
+
+#long-content .all .small_pic.egg .img {
+  width: 400px;
+  height: 400px;
+}
+
+#long-content .all .small_pic.cucum {
+  position: absolute;
+  right: 300px;
+  top: 150px;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#long-content .all .small_pic.cucum .img {
+  width: 100px;
+  height: 100px;
+}
+
+#long-content .all .small_pic.egg.active {
+  opacity: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+  left: 41%;
+}
+
+#long-content .all .small_pic.cucum.active {
+  opacity: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+  right: 50%;
+}
+
+#long-content .all .small_pic.cucum.active .img {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(2, 2);
+          transform: scale(2, 2);
 }
 
 #long-content .all .food_card {
@@ -62,54 +113,5 @@
   background-repeat: no-repeat;
   position: absolute;
   right: 0px;
-}
-
-#long-content .all .food_card .small_pic.egg {
-  position: absolute;
-  left: 50%;
-  top: 0px;
-  opacity: 0;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-#long-content .all .food_card .small_pic.egg .img {
-  width: 100px;
-  height: 100px;
-}
-
-#long-content .all .food_card .small_pic.cucum {
-  position: absolute;
-  right: 300px;
-  top: 150px;
-  opacity: 0;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-#long-content .all .food_card .small_pic.cucum .img {
-  width: 100px;
-  height: 100px;
-}
-
-#long-content .all .food_card .small_pic.egg.active {
-  opacity: 1;
-  -webkit-transition: 1s;
-  transition: 1s;
-  left: 50%;
-}
-
-#long-content .all .food_card .small_pic.cucum.active {
-  opacity: 1;
-  -webkit-transition: 1s;
-  transition: 1s;
-  right: 50%;
-}
-
-#long-content .all .food_card .small_pic.cucum.active .img {
-  -webkit-transition: 1s;
-  transition: 1s;
-  -webkit-transform: scale(2, 2);
-          transform: scale(2, 2);
 }
 /*# sourceMappingURL=scroll.css.map */
