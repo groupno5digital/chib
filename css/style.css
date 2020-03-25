@@ -3,14 +3,19 @@ body {
   padding: 0;
 }
 
-.all {
+.box {
+  width: 100%;
+  height: 91vh;
+}
+
+.long_content {
   height: 450vh;
   background-color: bisque;
   position: relative;
   overflow: hidden;
 }
 
-.all .wire {
+.long_content .wire {
   position: absolute;
   top: 50%;
   left: 57%;
@@ -20,7 +25,7 @@ body {
   height: 450vh;
 }
 
-.all .convenient {
+.long_content .convenient {
   position: absolute;
   bottom: 0px;
   left: 50%;
@@ -29,35 +34,35 @@ body {
   z-index: 2;
 }
 
-.all .convenient img {
+.long_content .convenient img {
   width: 800px;
 }
 
-.all .drop-icon-1 {
+.long_content .drop-icon-1 {
   position: absolute;
   top: 0;
   left: 55%;
 }
 
-.all .drop-icon-2 {
+.long_content .drop-icon-2 {
   position: absolute;
   top: 0;
   left: 30%;
 }
 
-.all .food_img {
+.long_content .food_img {
   margin-bottom: 250px;
 }
 
-.all .food_img img {
+.long_content .food_img img {
   width: 300px;
 }
 
-.all .food_img_btn {
+.long_content .food_img_btn {
   width: 200px;
 }
 
-.all .foodtext_right {
+.long_content .foodtext_right {
   text-align: right;
 }
 /*# sourceMappingURL=style.css.map */
