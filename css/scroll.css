@@ -45,6 +45,8 @@
   position: absolute;
   top: 23px;
   left: 58%;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 #long-content .all .container .nut_small img {
