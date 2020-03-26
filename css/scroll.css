@@ -12,6 +12,45 @@
   right: 48%;
 }
 
+#long-content .all .container .food_card {
+  width: 303px;
+  height: 482px;
+  padding: 64px 10px 55px 10px;
+  position: relative;
+}
+
+#long-content .all .container .nuts .title {
+  font-size: 35px;
+  text-align: center;
+}
+
+#long-content .all .container .nuts .egg {
+  width: 250px;
+  height: 210px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#long-content .all .container .nuts .textbox {
+  width: 100%;
+  padding: 10px;
+}
+
+#long-content .all .container .nuts .cnt {
+  font-size: 20px;
+}
+
+#long-content .all .container .nut_small {
+  position: absolute;
+  top: 23px;
+  left: 58%;
+}
+
+#long-content .all .container .nut_small img {
+  width: 78px;
+}
+
 #long-content .all .eggs {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,8 +84,8 @@
 
 #long-content .all .small_pic.egg {
   position: absolute;
-  left: 40%;
-  top: 196px;
+  left: 42%;
+  top: 150px;
   opacity: 0;
   -webkit-transition: 1s;
   transition: 1s;
@@ -54,8 +93,8 @@
 }
 
 #long-content .all .small_pic.egg .img {
-  width: 400px;
-  height: 400px;
+  width: 358;
+  height: 359px;
 }
 
 #long-content .all .small_pic.cucum {
@@ -76,7 +115,14 @@
   opacity: 1;
   -webkit-transition: 1s;
   transition: 1s;
-  left: 41%;
+  left: 42%;
+}
+
+#long-content .all .small_pic.nut.active {
+  opacity: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+  left: 42%;
 }
 
 #long-content .all .small_pic.cucum.active {
@@ -91,27 +137,5 @@
   transition: 1s;
   -webkit-transform: scale(2, 2);
           transform: scale(2, 2);
-}
-
-#long-content .all .food_card {
-  z-index: 0;
-  position: relative;
-}
-
-#long-content .all .food_card .big_pic.egg {
-  height: 300px;
-  width: 300px;
-  background-position: center;
-  background-size: cover;
-}
-
-#long-content .all .food_card .big_pic.cucum {
-  height: 300px;
-  width: 300px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  right: 0px;
 }
 /*# sourceMappingURL=scroll.css.map */

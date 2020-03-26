@@ -10,6 +10,62 @@
             top: 150px;
             right: 48%;
         }
+        .container{
+            .food_card{
+                width: 303px;
+                height: 482px;
+                padding: 64px 10px 55px 10px;
+                position: relative;
+            }
+            .nuts{
+                .title{
+                    font-size: 35px;
+                    text-align:center;
+                }
+                .egg{
+                    width: 250px;
+                    height: 210px;
+                    background-position: center;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+                .textbox{
+                    width: 100%;
+                    padding: 10px;
+                }
+                .cnt{
+                    font-size: 20px;
+                }
+            }
+            .nut_small{
+                position: absolute;
+                top: 23px;
+                left: 58%;
+                img{
+                    width: 78px;
+                }
+            }
+            // .food_card {
+            //     z-index: 0;
+            //     position: relative;
+            //     .big_pic .egg {
+            //         height: 300px;
+            //         width: 300px;
+            //         background-position: center;
+            //         background-size: cover;
+            //     }
+            //     .big_pic .cucum {
+            //         height: 300px;
+            //         width: 300px;
+            //         background-position: center;
+            //         background-size: contain;
+            //         background-repeat: no-repeat;
+            //         position: absolute;
+            //         right: 0px;
+            //     }
+                
+            // }
+        }
         .eggs {
             display: flex;
             justify-content: center;
@@ -32,14 +88,14 @@
         }
         .small_pic.egg {
             position: absolute;
-            left: 40%;
-            top: 196px;
+            left: 42%;
+            top: 150px;
             opacity: 0;
             transition: 1s;
             z-index: 2;
             .img {
-                width: 400px;
-                height: 400px;
+                width: 358;
+                height: 359px;
             }
         }
         .small_pic.cucum {
@@ -56,8 +112,12 @@
         .small_pic.egg.active {
             opacity: 1;
             transition: 1s;
-            left: 41%;
-            .img {}
+            left: 42%; 
+        }
+        .small_pic.nut.active {
+            opacity: 1;
+            transition: 1s;
+            left: 42%; 
         }
         .small_pic.cucum.active {
             opacity: 1;
@@ -68,25 +128,6 @@
                 transform: scale(2, 2);
             }
         }
-        .food_card {
-            z-index: 0;
-            position: relative;
-            .big_pic.egg {
-                height: 300px;
-                width: 300px;
-                background-position: center;
-                background-size: cover;
-            }
-            .big_pic.cucum {
-                height: 300px;
-                width: 300px;
-                background-position: center;
-                background-size: contain;
-                background-repeat: no-repeat;
-                position: absolute;
-                right: 0px;
-            }
-            
-        }
+        
     }
 }
