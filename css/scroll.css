@@ -85,7 +85,7 @@
 #long-content .all .small_pic.egg {
   position: absolute;
   left: 42%;
-  top: 150px;
+  top: 60px;
   opacity: 0;
   -webkit-transition: 1s;
   transition: 1s;
@@ -120,8 +120,8 @@
 
 #long-content .all .small_pic.nut.active {
   opacity: 1;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
   left: 42%;
 }
 

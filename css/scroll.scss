@@ -89,7 +89,7 @@
         .small_pic.egg {
             position: absolute;
             left: 42%;
-            top: 150px;
+            top: 60px;
             opacity: 0;
             transition: 1s;
             z-index: 2;
@@ -116,7 +116,7 @@
         }
         .small_pic.nut.active {
             opacity: 1;
-            transition: 1s;
+            transition: 1.5s;
             left: 42%; 
         }
         .small_pic.cucum.active {

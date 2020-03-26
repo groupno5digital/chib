@@ -87,14 +87,14 @@
         $(window).scroll(function () {
             console.log($(window).scrollTop());
             var sl = $(window).scrollTop();
-            if (sl >= hi - egs) {
+            if ((sl+100) >= hi - egs) {
                 $('.whole_egg').addClass('active');
                 $('.cark_left').addClass('active');
                 $('.cark_right').addClass('active');
                 $('.small_pic.egg').addClass('active');
 
             }
-            if (sl < hi - egs) {
+            if ((sl+100) < hi - egs) {
                 $('.whole_egg').removeClass('active');
                 $('.cark_left').removeClass('active');
                 $('.cark_right').removeClass('active');
@@ -110,7 +110,7 @@
             }
 
 
-            $('.small_pic.egg.active').attr('style', `transform:translateY(${sl - hi}px)`)
+            $('.small_pic.egg.active').attr('style', `transform:translateY(${sl - (hi-100)}px)`)
             $('.small_pic.nut_small.active').attr('style', `transform:translateY(${sl - 1286}px)`)
             // $('.small_pic.cucum.active').attr('style', `transform:translateY(${sl-hi}px)`)
         })
