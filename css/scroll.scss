@@ -39,11 +39,47 @@
             }
             .nut_small{
                 position: absolute;
-                top: 23px;
+                top: 84px;
                 left: 58%;
                 transition: 1s;
                 img{
                     width: 78px;
+                }
+            }
+            .cheese_small{
+                position: absolute;
+                top: 150px;
+                left: 33%;
+                transition: 1s;
+                img{
+                    width: 78px;
+                }
+            }
+            .lettuce_small{
+                position: absolute;
+                top: 150px;
+                left: 50%;
+                transition: 1s;
+                img{
+                    width: 78px;
+                }
+            }
+            .salmon_small{
+                position: absolute;
+                top: 150px;
+                left: 30%;
+                transition: 1s;
+                img{
+                    width: 138px;
+                }
+            }
+            .beaf_small{
+                position: absolute;
+                top: 150px;
+                left: 62%;
+                transition: 1s;
+                img{
+                    width: 138px;
                 }
             }
             // .food_card {
@@ -90,7 +126,7 @@
         .small_pic.egg {
             position: absolute;
             left: 42%;
-            top: 60px;
+            top: 50px;
             opacity: 0;
             transition: 1s;
             z-index: 2;

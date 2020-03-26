@@ -43,7 +43,7 @@
 
 #long-content .all .container .nut_small {
   position: absolute;
-  top: 23px;
+  top: 84px;
   left: 58%;
   -webkit-transition: 1s;
   transition: 1s;
@@ -51,6 +51,54 @@
 
 #long-content .all .container .nut_small img {
   width: 78px;
+}
+
+#long-content .all .container .cheese_small {
+  position: absolute;
+  top: 150px;
+  left: 33%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#long-content .all .container .cheese_small img {
+  width: 78px;
+}
+
+#long-content .all .container .lettuce_small {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#long-content .all .container .lettuce_small img {
+  width: 78px;
+}
+
+#long-content .all .container .salmon_small {
+  position: absolute;
+  top: 150px;
+  left: 30%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#long-content .all .container .salmon_small img {
+  width: 138px;
+}
+
+#long-content .all .container .beaf_small {
+  position: absolute;
+  top: 150px;
+  left: 62%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#long-content .all .container .beaf_small img {
+  width: 138px;
 }
 
 #long-content .all .eggs {
@@ -87,7 +135,7 @@
 #long-content .all .small_pic.egg {
   position: absolute;
   left: 42%;
-  top: 60px;
+  top: 50px;
   opacity: 0;
   -webkit-transition: 1s;
   transition: 1s;
